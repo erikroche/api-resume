@@ -8,7 +8,7 @@ export default function Home() {
           Welcome to Erik Roche's API Resume!
         </div>
         <div className="text-lg">
-          Learn how to access my Resume via REST API call
+          Learn how to access my Resume via a REST API call
         </div>
       </div>
 
@@ -84,6 +84,106 @@ export default function Home() {
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erikroche.com/api/resume</code>
           <CopyButton text="https://erikroche.com/api/resume">
+            Copy
+          </CopyButton>
+        </div>
+      </div>
+
+      <div className="p-8 my-8 max-w-[900px] w-[95%] mx-auto bg-white rounded-xl shadow-lg">
+        <div className="text-3xl mb-6 font-medium text-black">
+          API Endpoints
+        </div>
+        <div className="text-lg mb-6">
+          Once you are setup with one of the methods above, you can start accessing my resume with various endpoints. These are different URLs which you can make <b>GET</b> requests from to view different parts of my resume.
+        </div>
+        <div className="text-lg mb-6">
+          The following endpoints are available:
+        </div>
+        <div className="text-lg p-2">
+          1. <b>Index:</b> Shows all available endpoints.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/</code>
+          <CopyButton text="https://erikroche.com/api/">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          2. <b>Resume:</b> View my full resume.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/resume</code>
+          <CopyButton text="https://erikroche.com/api/resume">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          3. <b>Projects:</b> View information about the projects I've built.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/projects</code>
+          <CopyButton text="https://erikroche.com/api/projects">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          4. <b>Skills:</b> View my skills.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/skills</code>
+          <CopyButton text="https://erikroche.com/api/skills">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          5. <b>Education:</b> View my education.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/education</code>
+          <CopyButton text="https://erikroche.com/api/education">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          6. <b>Experience:</b> View my work experience.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/experience</code>
+          <CopyButton text="https://erikroche.com/api/experience">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          7. <b>Contact</b> View my preferred contact information.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/contact</code>
+          <CopyButton text="https://erikroche.com/api/contact">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          8. <b>Comments</b> View my comments in the database of my API.
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">https://erikroche.com/api/comments</code>
+          <CopyButton text="https://erikroche.com/api/comments">
+            Copy
+          </CopyButton>
+        </div>
+        <div className="text-lg p-2">
+          You can also make a <b>POST</b> request to the comments endpoint to add a comment to the database. The comment should be sent in the body of the request as a JSON object with the following format:
+        </div>
+        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+          <code className="p-2 flex-grow-0">
+            <pre>
+            {`{
+  "name": "Your Name",
+  "comment": "Here's where you can put your comment"
+}`}
+            </pre>
+          </code>
+          <CopyButton text={`{ "name": "Your Name", "comment": "Your Comment" }`}>
             Copy
           </CopyButton>
         </div>
