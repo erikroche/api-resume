@@ -15,7 +15,7 @@ export const CopyButton = ({ text, children }: { text: string, children: React.R
 
  return (
   <button 
-    className="text-sm p-2 rounded-md bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 focus:outline-none focus:ring focus:ring-indigo-500"
+    className="text-sm p-2 h-10 rounded-md bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 focus:outline-none focus:ring focus:ring-indigo-500"
     disabled={isCopied} 
     onClick={copy}
   >

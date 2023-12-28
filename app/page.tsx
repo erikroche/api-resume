@@ -174,7 +174,7 @@ export default function Home() {
         <div className="text-lg p-2">
           You can also make a <b>POST</b> request to the comments endpoint to add a comment to the database. The comment should be sent in the body of the request as a JSON object with the following format:
         </div>
-        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
+        <div className="mb-6 text-md flex justify-between items-end text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">
             <pre>
             {`{
