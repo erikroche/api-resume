@@ -5,7 +5,7 @@ export default function Home() {
     <div className="bg-gray-200 min-h-screen overflow-hidden">
       <div className="p-8 my-8 max-w-[900px] w-[95%] mx-auto bg-white rounded-xl shadow-lg">
         <div className="text-3xl mb-6 font-medium text-black">
-          Welcome to Erik Roche's API Resume!
+          Welcome to Erik Roche&apos;s API Resume!
         </div>
         <div className="text-lg">
           Learn how to access my Resume via a REST API call
@@ -118,7 +118,7 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          3. <b>Projects:</b> View information about the projects I've built.
+          3. <b>Projects:</b> View information about the projects I&apos;ve built.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erikroche.com/api/projects</code>
