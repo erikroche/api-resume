@@ -21,8 +21,8 @@ export default function Home() {
             You can access my API resume in a web browser by navigating to the following URL:
           </div>
           <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-            <code className="p-2 flex-grow-0">https://erikroche.com/api/resume</code>
-            <CopyButton text="https://erikroche.com/api/resume">
+            <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/resume</code>
+            <CopyButton text="https://erik-roche-api-resume.vercel.app/api/resume">
               Copy
             </CopyButton>
           </div>
@@ -55,8 +55,8 @@ export default function Home() {
           2. Once you have verified that cURL is installed, execute the following code in the command line:
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">curl -k https://erikroche.com/api/resume</code>
-          <CopyButton text="curl -k https://erikroche.com/api/resume">
+          <code className="p-2 flex-grow-0">curl -k https://erik-roche-api-resume.vercel.app/api/resume</code>
+          <CopyButton text="curl -k https://erik-roche-api-resume.vercel.app/api/resume">
             Copy
           </CopyButton>
         </div>
@@ -82,8 +82,8 @@ export default function Home() {
           3. Select GET and enter the following in the body:
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/resume</code>
-          <CopyButton text="https://erikroche.com/api/resume">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/resume</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/resume">
             Copy
           </CopyButton>
         </div>
@@ -103,8 +103,8 @@ export default function Home() {
           1. <b>Index:</b> Shows all available endpoints.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/</code>
-          <CopyButton text="https://erikroche.com/api/">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/">
             Copy
           </CopyButton>
         </div>
@@ -112,8 +112,8 @@ export default function Home() {
           2. <b>Resume:</b> View my full resume.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/resume</code>
-          <CopyButton text="https://erikroche.com/api/resume">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/resume</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/resume">
             Copy
           </CopyButton>
         </div>
@@ -121,8 +121,8 @@ export default function Home() {
           3. <b>Projects:</b> View information about the projects I&apos;ve built.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/projects</code>
-          <CopyButton text="https://erikroche.com/api/projects">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/projects</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/projects">
             Copy
           </CopyButton>
         </div>
@@ -130,8 +130,8 @@ export default function Home() {
           4. <b>Skills:</b> View my skills.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/skills</code>
-          <CopyButton text="https://erikroche.com/api/skills">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/skills</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/skills">
             Copy
           </CopyButton>
         </div>
@@ -139,8 +139,8 @@ export default function Home() {
           5. <b>Education:</b> View my education.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/education</code>
-          <CopyButton text="https://erikroche.com/api/education">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/education</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/education">
             Copy
           </CopyButton>
         </div>
@@ -148,8 +148,8 @@ export default function Home() {
           6. <b>Experience:</b> View my work experience.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/experience</code>
-          <CopyButton text="https://erikroche.com/api/experience">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/experience</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/experience">
             Copy
           </CopyButton>
         </div>
@@ -157,8 +157,8 @@ export default function Home() {
           7. <b>Contact</b> View my preferred contact information.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/contact</code>
-          <CopyButton text="https://erikroche.com/api/contact">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/contact</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/contact">
             Copy
           </CopyButton>
         </div>
@@ -166,8 +166,8 @@ export default function Home() {
           8. <b>Comments</b> View my comments in the database of my API.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erikroche.com/api/comments</code>
-          <CopyButton text="https://erikroche.com/api/comments">
+          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/comments</code>
+          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/comments">
             Copy
           </CopyButton>
         </div>
