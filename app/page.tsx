@@ -136,16 +136,7 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          5. <b>Education:</b> View my education.
-        </div>
-        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/education</code>
-          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/education">
-            Copy
-          </CopyButton>
-        </div>
-        <div className="text-lg p-2">
-          6. <b>Experience:</b> View my work experience.
+          5. <b>Experience:</b> View my work experience.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/experience</code>
@@ -154,7 +145,7 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          7. <b>Contact</b> View my preferred contact information.
+          6. <b>Contact</b> View my preferred contact information.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/contact</code>
@@ -163,7 +154,7 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          8. <b>Comments</b> View my comments in the database of my API.
+          7. <b>Comments</b> View my comments in the database of my API.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/comments</code>

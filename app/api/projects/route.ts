@@ -4,7 +4,7 @@ const PROJECT_REF = process.env.PROJECT_REF;
 const ANON_KEY = process.env.ANON_KEY;
 
 export async function GET() {
-    const res = await fetch(`https://${PROJECT_REF}.supabase.co/rest/v1/resumes?apikey=${ANON_KEY}`)
+    const res = await fetch(`https://${PROJECT_REF}.supabase.co/rest/v1/projects?apikey=${ANON_KEY}`)
     const data = await res.json()
     return NextResponse.json(data)
 }
