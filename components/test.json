@@ -1,0 +1,21 @@
+[
+    {
+        "id": "36932350-301d-4285-8305-d4596710e33c",
+        "name": "Erik Roche",
+        "aboutMe": "Software Engineer from Co. Kildare, Ireland",
+        "projectCount": 5,
+        "experience": [
+            "{\"id\": \"4cb93525-81a8-405e-8221-75dc03998a7e\", \"title\": \"Software Developer Intern\", \"company\": \"Travelport\", \"dateRange\": \"January 2023 - August 2023 (7 months)\", \"responsibilities\": [\"Initially focused on the backend, worked with the team to rebuild our back end from a legacy monolith to a SpringBoot and React microservices architecture.\", \"Responsible for RESTApi endpoint integrations and rigorous testing through Swagger and Postman.\", \"Led the development and implementation of a custom SQL Validator Gradle Plugin for Java projects, reducing production application issues by eliminating syntax errors and ensuring robust database interactions.\", \"Worked as a team to implement GitHub Actions into the CI/CD pipeline, automating testing and deployment processes to enhance the reliability of our releases.\", \"Transitioned to a frontend developer role where I developed and maintained functionality for our large-scale React application, utilising TypeScript and Tailwind CSS, resulting in a visually appealing and responsive user interface.\"]}"
+        ],
+        "projects": [
+            "{\"id\": \"9bb3cca7-ebb6-4005-943d-01576baf8a61\", \"live\": \"https://erikroche.online\", \"name\": \"erikroche.online - personal portfolio website\", \"repo\": \"https://github.com/erikroche/erikroche.online\", \"stack\": [\"angular\", \"typescript\", \"javascript\", \"html\", \"tailwind-css\", \"netlify\"], \"description\": \"My portfolio website built with Angular and deployed on Netlify.\"}",
+            "{\"id\": \"2601bd49-c2c0-41e0-a1dd-186b4ef9de46\", \"live\": null, \"name\": \"gradle sql validator\", \"repo\": \"https://github.com/erikroche/gradle-sql-validator\", \"stack\": [\"groovy\", \"java\", \"gradle\"], \"description\": \"This was a tool I built during my Internship at Travelport. It was a Gradle plugin that would eliminate syntax errors in our team's SpringBoot Back-end. It was built using Java and Groovy.\"}",
+            "{\"id\": \"a753de92-650a-4e13-965f-f2a9b9989983\", \"live\": null, \"name\": \"mood journal\", \"repo\": \"https://github.com/erikroche/mood-journal\", \"stack\": [\"next.js\", \"typescript\", \"javascript\", \"prismadb\", \"clerk-authentication\"], \"description\": \"A Full-stack journal app which is powered by AI\"}",
+            "{\"id\": \"88eb0128-9739-4088-b458-44e943afd863\", \"live\": null, \"name\": \"gpt-4-less\", \"repo\": \"https://github.com/erikroche/gpt-4-less\", \"stack\": [\"openai-api\", \"javascript\", \"node.js\", \"express\"], \"description\": \"Use an Open AI API key to access gpt-3.5-turbo and gpt-4 for a few cents a month!\"}",
+            "{\"id\": \"75fdd7a2-0fff-4958-8095-6a42af6ef3dd\", \"live\": null, \"name\": \"readme generator\", \"repo\": \"https://github.com/erikroche/readme-generator\", \"stack\": [\"python\", \"openai-api\"], \"description\": \"An (almost) free, locally-hosted, readme generator for github repositories on your local machine powered by gpt-3.5/4\"}"
+        ],
+        "contact": [
+            "{\"id\":\"bfbceedd-c327-4926-aa86-d2ed919d873e\",\"email\":\"info@erikroche.com\",\"github\":\"https://github.com/erikroche\",\"linkedin\":\"https://www.linkedin.com/in/erik-roche/\",\"twitter\":null}"
+        ]
+    }
+]
