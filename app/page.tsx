@@ -67,7 +67,7 @@ export default function Home() {
 
       <div className="p-8 my-8 max-w-[900px] w-[95%] mx-auto bg-white rounded-xl shadow-lg">
         <div className="text-3xl mb-6 font-medium text-black">
-          Using and API Client
+          Using an API Client
         </div>
         <div className="text-lg mb-6">
         API clients like <a className="text-blue-700 hover:text-blue-900 underline" href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">Postman</a> and <a className="text-blue-700 hover:text-blue-900 underline" href="https://insomnia.rest/" target="_blank" rel="noopener noreferrer">Insomnia</a> allow for interacting with APIs using a visual user interface that make it easy to test API endpoints.
@@ -127,16 +127,7 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          4. <b>Skills:</b> View my skills.
-        </div>
-        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/skills</code>
-          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/skills">
-            Copy
-          </CopyButton>
-        </div>
-        <div className="text-lg p-2">
-          5. <b>Experience:</b> View my work experience.
+          4. <b>Experience:</b> View my work experience.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/experience</code>
@@ -145,36 +136,11 @@ export default function Home() {
           </CopyButton>
         </div>
         <div className="text-lg p-2">
-          6. <b>Contact</b> View my preferred contact information.
+          5. <b>Contact</b> View my preferred contact information.
         </div>
         <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
           <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/contact</code>
           <CopyButton text="https://erik-roche-api-resume.vercel.app/api/contact">
-            Copy
-          </CopyButton>
-        </div>
-        <div className="text-lg p-2">
-          7. <b>Comments</b> View my comments in the database of my API.
-        </div>
-        <div className="mb-6 text-md flex justify-between text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">https://erik-roche-api-resume.vercel.app/api/comments</code>
-          <CopyButton text="https://erik-roche-api-resume.vercel.app/api/comments">
-            Copy
-          </CopyButton>
-        </div>
-        <div className="text-lg p-2">
-          You can also make a <b>POST</b> request to the comments endpoint to add a comment to the database. The comment should be sent in the body of the request as a JSON object with the following format:
-        </div>
-        <div className="mb-6 text-md flex justify-between items-end text-white p-2 w-full bg-gray-700 rounded-md">
-          <code className="p-2 flex-grow-0">
-            <pre>
-            {`{
-  "name": "Your Name",
-  "comment": "Here's where you can put your comment"
-}`}
-            </pre>
-          </code>
-          <CopyButton text={`{ "name": "Your Name", "comment": "Your Comment" }`}>
             Copy
           </CopyButton>
         </div>
