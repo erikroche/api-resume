@@ -1,4 +1,4 @@
-# Eric Roche API Resume
+# Erik Roche API Resume
 ## Description
 You can fetch my resume as a REST API
 ## Technology
